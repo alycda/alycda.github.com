@@ -5,3 +5,12 @@ The portfolio of **designer** / **developer** and aspiring **motionographer**: *
 
 * created with **[Type&Grids](http://typeandgrids.com)**
 * last updated **May 1st, 2013**
+
+To Do
+-----
++ options index
++ retinajs
++ style tiles
++ change fonts
++ use less
++ add preview slider
