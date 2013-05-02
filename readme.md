@@ -9,7 +9,6 @@ The portfolio of **designer** / **developer** and aspiring **motionographer**: *
 To Do
 -----
 + options index
-+ retinajs
 + style tiles
 + change fonts
 + use less

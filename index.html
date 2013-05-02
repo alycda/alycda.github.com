@@ -89,7 +89,7 @@
 						<h5>HTML eCard</h5>
 					</div>
 					
-					<img src="images/projects/rolling_stones_ecard.jpg" alt="Rolling Stones eCard" class="thumbnailImage" />
+					<img src="images/projects/rolling_stones.gif" alt="Rolling Stones eCard" class="thumbnailImage" />
 				</div>
 				
 				<div class="projectInfo">
@@ -227,6 +227,22 @@
 </div><!-- container -->
 
 <script type="text/javascript">
+
+// Set pixelRatio to 1 if the browser doesn't offer it up.
+var pixelRatio = !!window.devicePixelRatio ? window.devicePixelRatio : 1;
+ 
+// Rather than waiting for document ready, where the images
+// have already loaded, we'll jump in as soon as possible.
+$(window).on("load", function() {
+    if (pixelRatio > 1) {
+        $('img').each(function() {
+ 
+            // Very naive replacement that assumes no dots in file names.
+            $(this).attr('src', $(this).attr('src').replace(".","@2x."));
+        });
+    }
+});
+
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-11462696-2']);
