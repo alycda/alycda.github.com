@@ -29,6 +29,8 @@
 <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
 
+<link rel="shortlink" href="alyda.me">
+
 <!-- JS
 ================================================================================================= -->
 <script src="js/libs/modernizr.min.js"></script>
@@ -190,7 +192,7 @@
 			
 			<div class="sixteen columns alpha omega">
 				<h4>Stuff I like</h4>			
-				<p><a href="http://www.motionserved.com" target="_blank">Motion Graphics</a>, <a href="http://countrymusichalloffame.org/our-work/" target="_blank">Printmaking</a>, <a href="http://www.typographyserved.com" target="_blank">Typography</a>, <a href="http://www.flickr.com/photos/alyssadavis/" target="_blank">Photography</a>, Surfing, <a href="http://www.mammothmountain.com" target="_blank">Snowboarding</a>, <a href="http://crosscreekutila.com" target="_blank">SCUBA Diving</a>, <a href="http://www.nationalgeographic.com" target="_blank">Travel</a>, <a href="http://www.computerarts.co.uk" target="_blank">Design</a>, Technology, Blogs, &amp; Social Media.</p>
+				<p><a href="http://www.motionserved.com" target="_blank">Motion Graphics</a>, <a href="http://countrymusichalloffame.org/our-work/" target="_blank">Printmaking</a>, <a href="http://www.typographyserved.com" target="_blank">Typography</a>, <a href="http://www.flickr.com/photos/alyssadavis/" target="_blank">Photography</a>, Surfing, <a href="http://www.mammothmountain.com" target="_blank">Snowboarding</a>, <a href="http://crosscreekutila.com" target="_blank">SCUBA Diving</a>, <a href="http://www.nationalgeographic.com" target="_blank">Travel</a>, <a href="http://www.computerarts.co.uk" target="_blank">Design</a>, <a href="http://arstechnica.com" target="_blank">Technology</a>, Blogging, &amp; Social Media.</p>
 			</div>
 			
 		</div>
@@ -228,20 +230,20 @@
 
 <script type="text/javascript">
 
-// Set pixelRatio to 1 if the browser doesn't offer it up.
-var pixelRatio = !!window.devicePixelRatio ? window.devicePixelRatio : 1;
- 
-// Rather than waiting for document ready, where the images
-// have already loaded, we'll jump in as soon as possible.
-$(window).on("load", function() {
-    if (pixelRatio > 1) {
-        $('img').each(function() {
- 
-            // Very naive replacement that assumes no dots in file names.
-            $(this).attr('src', $(this).attr('src').replace(".","@2x."));
-        });
-    }
-});
+	// Set pixelRatio to 1 if the browser doesn't offer it up.
+	var pixelRatio = !!window.devicePixelRatio ? window.devicePixelRatio : 1;
+	 
+	// Rather than waiting for document ready, where the images
+	// have already loaded, we'll jump in as soon as possible.
+	$(window).on("load", function() {
+	    if (pixelRatio > 1) {
+	        $('img').each(function() {
+	 
+	            // Very naive replacement that assumes no dots in file names.
+	            $(this).attr('src', $(this).attr('src').replace(".","@2x."));
+	        });
+	    }
+	});
 
 
   var _gaq = _gaq || [];
