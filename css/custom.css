@@ -8,3 +8,21 @@
 } @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.eight.columns .one-half { width: 200px; }
 }
+
+hr { /*height: 10px; background: url('img/hr.png') no-repeat;*/}
+
+.year {
+	color: #eeeeee;
+	padding-top: 12px;
+	float: right;
+}
+
+.color {
+	color: #72f499;
+} footer li, footer a{
+	color: #555; /*555*/
+} .muted, .muted a {
+	color: #222;
+} .muted a:hover {
+	color: #555;
+}

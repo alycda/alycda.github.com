@@ -14,8 +14,8 @@
 <!-- CSS
 ================================================================================================= -->
 <link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/themes/type_04.css">
-<link rel="stylesheet" href="css/themes/color_13.css">
+<link rel="stylesheet" href="css/type.css">
+<link rel="stylesheet" href="css/color.css">
 <link rel="stylesheet" href="css/custom.css">
 
 <!--[if lt IE 9]>
@@ -44,7 +44,7 @@
 
 <!-- Write preloader to page - this allows the site to load for users with JS disabled -->
 <script type="text/javascript">
-	document.write("<div id='sitePreloader'><div id='preloaderImage'><img src='images/site_preloader.gif' alt='Preloader' /></div></div>");
+	document.write("<div id='sitePreloader'><div id='preloaderImage'><img src='images/site_preloader.gif' width='30' height='30' alt='Preloader' /></div></div>");
 </script>
 
 <div class="container">
@@ -52,8 +52,7 @@
 	<!-- Header begins ========================================================================== -->
 	<header class="sixteen columns">
 		<div id="logo">
-			<h1>Alyssa Davis</h1>
-			<h2>Graphic Designer // Web Developer</h2>
+			<h1>Hey, I'm <span class="sovba color">Alyssa</span></h1>
 		</div>
 		<nav>
 			<ul>
@@ -75,7 +74,7 @@
 	<div id="work">
 	
 		<div id="overview" class="sixteen columns">
-			<h3>I design &amp; code awesome websites. Wanna <a href="mailto:hello@alyda.me">hire me</a>?</h3>
+			<h3>I <strong>design</strong> <span class="ampersand color">&amp;</span> <strong>code</strong> <em class="color">awesome</em> websites. Wanna <a href="mailto:hello@alyda.me">hire me</a>?</h3>
 			<hr />
 		</div>
 		
@@ -95,7 +94,7 @@
 				</div>
 				
 				<div class="projectInfo">
-					<h4>The Rolling Stones</h4><span class="year">
+					<h4>The Rolling Stones</h4><span class="year"><strong>Year:</strong> 2013</span>
 					<div class="projectNavCounter"></div>
 					<div class="projectNav">
 						<div class="projectNavEnlarge"><button class="enlargeButton" onClick="window.location.href='projects/rolling_stones/'">View eCard</button></div>
@@ -106,7 +105,6 @@
 					<ul>
 						<li><strong>Client:</strong> AEG Live</li>
 						<li><strong>Role:</strong> Designer</li>
-						<li><strong>Year:</strong> 2013</li>
 					</ul>
 				</div>
 				
@@ -127,7 +125,7 @@
 				</div>
 				
 				<div class="projectInfo">
-					<h4>Mammoth Mud Run</h4><span class="year">
+					<h4>Mammoth Mud Run</h4><span class="year"><strong>Year:</strong> 2012</span>
 					<div class="projectNavCounter"></div>
 					<div class="projectNav">
 						<div class="projectNavEnlarge"><button class="enlargeButton" onClick="window.open('http://vimeo.com/alyda/mudrun2012')">Watch on Vimeo</button></div>
@@ -138,7 +136,6 @@
 					<ul>
 						<li><strong>Camera:</strong> GoPro HD Hero 2</li>
 						<li><strong>Software:</strong> iMovie, After Effects</li>
-						<li><strong>Year:</strong> 2012</li>
 					</ul>
 				</div>
 				
@@ -160,7 +157,7 @@
 		<!-- Column 1 begins ==================================================================== -->
 		<div class="eight columns">
 			
-			<h3>Hi!</h3>
+			<h3 class="color">Hi!</h3>
 			<p>I'm a <strong>freelance</strong> Graphic Designer &amp; Web Developer. I specialize in creating unique websites through the use of the latest technologies such as HTML5, CSS3, and Javascript. My passion for adventure drives me to combine technology and design, resulting in a memorable experience.</p>
 			
 			<div class="one-half column alpha">
@@ -200,7 +197,7 @@
 		
 		<!-- Column 2 begins ==================================================================== -->
 		<div class="eight columns">
-			
+			<svg class="thumbnailMask"></svg>
 			<img src="images/about.jpg" alt="About" />
 			
 			<ul class="linedList">
@@ -219,9 +216,9 @@
 	<footer class="sixteen columns">
 		<hr />
 		<ul id="footerLinks">
-			<li>&copy; 2013 Alyssa Davis. All rights reserved.</li>
+			<li>&copy; 2013 <span class="sovba">Alyssa Davis</span>. All rights reserved.</li>
 			<li><a href="mailto:hello@alyda.me">hello@alyda.me</a></li>
-			<li>Powered by <a href="http://www.typeandgrids.com" target="_blank">Type &amp; Grids</a></li>
+			<li class="muted">Powered by <a href="http://www.typeandgrids.com" target="_blank">Type &amp; Grids</a></li>
 		</ul>
 	</footer>
 	<!-- Footer ends ============================================================================ -->
