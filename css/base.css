@@ -98,7 +98,7 @@ Contents
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
 	em { font-style: italic; }
-	strong { font-weight: bold; color: #333; }
+	strong { font-weight: bold; /*color: #333;*/ }
 	small { font-size: 80%; }
 
 	blockquote, blockquote p { font-family: Georgia, Arial, sans-serif; font-size: 14px; line-height: 1.5; font-style: italic; }
@@ -107,8 +107,8 @@ Contents
 	blockquote cite:before { content: "\2014"; }
 	/*blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }*/
 
-	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
-
+	hr { border: solid #ddd; border-width: 2px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+	
 /*===================================================================================================
 4) Links
 ===================================================================================================*/

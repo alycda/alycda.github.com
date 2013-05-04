@@ -1,0 +1,599 @@
+/*
+••••••••••••••••••••••••
+
+Powered by Type & Grids™
+www.typeandgrids.com
+
+••••••••••••••••••••••••
+*/
+
+/*===================================================================================================
+Contents
+=====================================================================================================
+	1) @font-face definitions
+	2) Styles
+	3) Positioning adjustments
+	4) Media query adjustments
+*/
+
+/*===================================================================================================
+1) @font-face definitions
+===================================================================================================*/
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic,700italic);
+
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400italic,400);
+
+@font-face {
+    font-family: 'Sovba Bold Oblique';
+    src: url('fonts/sovba/sovba_bold_oblique-webfont.eot');
+    src: url('fonts/sovba/sovba_bold_oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sovba/sovba_bold_oblique-webfont.woff') format('woff'),
+         url('fonts/sovba/sovba_bold_oblique-webfont.ttf') format('truetype'),
+         url('fonts/sovba/sovba_bold_oblique-webfont.svg#sovba_bold_obliqueBdOb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} @font-face {
+    font-family: 'Sovba';
+    src: url('fonts/sovba/sovba_regular-webfont.eot');
+    src: url('fonts/sovba/sovba_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sovba/sovba_regular-webfont.woff') format('woff'),
+         url('fonts/sovba/sovba_regular-webfont.ttf') format('truetype'),
+         url('fonts/sovba/sovba_regular-webfont.svg#sovba_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Adelle Bold';
+    src: url('fonts/adelle/adelle-bold-webfont.eot');
+    src: url('fonts/adelle/adelle-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/adelle/adelle-bold-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle-bold-webfont.ttf') format('truetype'),
+         url('fonts/adelle/adelle-bold-webfont.svg#adelle_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} @font-face {
+    font-family: 'Adelle Bold Italic';
+    src: url('fonts/adelle/adelle-bolditalic-webfont.eot');
+    src: url('fonts/adelle/adelle-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/adelle/adelle-bolditalic-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/adelle/adelle-bolditalic-webfont.svg#adelle_rgbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} @font-face {
+    font-family: 'Adelle ExtraBold';
+    src: url('fonts/adelle/adelle-extrabold-webfont.eot');
+    src: url('fonts/adelle/adelle-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/adelle/adelle-extrabold-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle-extrabold-webfont.ttf') format('truetype'),
+         url('fonts/adelle/adelle-extrabold-webfont.svg#adelle_ebextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} @font-face {
+    font-family: 'Adelle ExtraBold Italic';
+    src: url('fonts/adelle/adelle-extrabolditalic-webfont.eot');
+    src: url('fonts/adelle/adelle-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/adelle/adelle-extrabolditalic-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle-extrabolditalic-webfont.ttf') format('truetype'),
+         url('fonts/adelle/adelle-extrabolditalic-webfont.svg#adelle_ebextrabold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} @font-face {
+    font-family: 'Adelle Heavy';
+    src: url('fonts/adelle/adelle-heavy-webfont.eot');
+    src: url('fonts/adelle/adelle-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/adelle/adelle-heavy-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle-heavy-webfont.ttf') format('truetype'),
+         url('fonts/adelle/adelle-heavy-webfont.svg#adelle_hvheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} @font-face {
+    font-family: 'Adelle Heavy Italic';
+    src: url('fonts/adelle/adelle-heavyitalic-webfont.eot');
+    src: url('fonts/adelle/adelle-heavyitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/adelle/adelle-heavyitalic-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle-heavyitalic-webfont.ttf') format('truetype'),
+         url('fonts/adelle/adelle-heavyitalic-webfont.svg#adelle_hvheavy_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} @font-face {
+    font-family: 'Adelle Italic';
+    src: url('fonts/adelle/adelle-italic-webfont.eot');
+    src: url('fonts/adelle/adelle-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/adelle/adelle-italic-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle-italic-webfont.ttf') format('truetype'),
+         url('fonts/adelle/adelle-italic-webfont.svg#adelle_rgitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} @font-face {
+    font-family: 'Adelle Light';
+    src: url('fonts/adelle/adelle-light-webfont.eot');
+    src: url('fonts/adelle/adelle-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/adelle/adelle-light-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle-light-webfont.ttf') format('truetype'),
+         url('fonts/adelle/adelle-light-webfont.svg#adelle_ltlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} @font-face {
+    font-family: 'Adelle Light Italic';
+    src: url('fonts/adelle/adelle-lightitalic-webfont.eot');
+    src: url('fonts/adelle/adelle-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/adelle/adelle-lightitalic-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle-lightitalic-webfont.ttf') format('truetype'),
+         url('fonts/adelle/adelle-lightitalic-webfont.svg#adelle_ltlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} @font-face {
+    font-family: 'Adelle';
+    src: url('fonts/adelle/adelle-regular-webfont.eot');
+    src: url('fonts/adelle/adelle-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/adelle/adelle-regular-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle-regular-webfont.ttf') format('truetype'),
+         url('fonts/adelle/adelle-regular-webfont.svg#adelle_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} @font-face {
+    font-family: 'Adelle SemiBold';
+    src: url('fonts/adelle/adelle-semibold-webfont.eot');
+    src: url('fonts/adelle/adelle-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/adelle/adelle-semibold-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle-semibold-webfont.ttf') format('truetype'),
+         url('fonts/adelle/adelle-semibold-webfont.svg#adelle_sbsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} @font-face {
+    font-family: 'Adelle Semibold Italic';
+    src: url('fonts/adelle/adelle-semibolditalic-webfont.eot');
+    src: url('fonts/adelle/adelle-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/adelle/adelle-semibolditalic-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle-semibolditalic-webfont.ttf') format('truetype'),
+         url('fonts/adelle/adelle-semibolditalic-webfont.svg#adelle_sbsemibold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*===================================================================================================
+2) Styles
+===================================================================================================*/
+
+.sovba {
+	font-family: "Sovba", Arial, sans-serif;
+}
+
+#logo h1, #logoDetailView h1 {
+	font-family: "Adelle Italic", Arial, sans-serif; /*Source Sans Pro*/
+	font-weight: 700;
+	font-style: normal;
+	font-size: 68px; /*34px*/
+	line-height: 1.2; /*1.5*/
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-rendering: optimizeLegibility;
+}
+
+#logo h2, #logoDetailView h2 {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 400;
+    font-style: normal;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: none;
+	text-rendering: auto;
+}
+
+nav ul li a, nav ul li button, nav ul li span, #detailViewBack a {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 600;
+    font-style: normal;
+	font-size: 12px;
+	line-height: 1.5;
+	letter-spacing: 0.09em;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-rendering: auto;
+}
+
+#overview h3 {
+	font-family: "Adelle Light", Arial, sans-serif; /*Source Sans Pro*/
+	font-weight: 300;
+    font-style: normal;
+	font-size: 36px; /*40*/
+	line-height: 1.2;
+	letter-spacing: -0.02em;
+	text-decoration: none;
+	text-transform: none;
+	text-rendering: optimizeLegibility;
+}
+
+#overview h3 a {
+	font-family: "Adelle Bold", Arial, sans-serif; 
+	text-decoration: none;
+
+}
+
+.ampersand {
+	font-family: "Playfair Display", Georgia, serif;
+	font-weight: normal;
+    font-style: italic;
+	font-size: 36px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: none;
+	text-rendering: optimizeLegibility;
+}
+
+.projectThumbnailHover h4 {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 600;
+    font-style: normal;
+	font-size: 24px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: none;
+	text-rendering: auto;
+}
+
+.projectThumbnailHover h5 {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 400;
+    font-style: normal;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: none;
+	text-rendering: auto;
+}
+
+.projectInfo h4 {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 700;
+    font-style: normal;
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: none;
+	text-rendering: auto;
+}
+
+.projectNavCounter {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 400;
+    font-style: normal;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: none;
+	text-rendering: auto;
+}
+
+.projectNavButtons button {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 600;
+    font-style: normal;
+	font-size: 12px;
+	line-height: 1.2;
+	letter-spacing: 0.09em;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-rendering: auto;
+}
+
+.projectNavClose button, .projectNavEnlarge button {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 600;
+    font-style: normal;
+	font-size: 12px;
+	line-height: 1.2;
+	letter-spacing: 0.09em;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-rendering: auto;
+}
+
+p, li, .projectInfo p, .projectInfo li {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 400;
+    font-style: normal;
+	font-size: 14px;
+	line-height: 1.4;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: none;
+	text-rendering: auto;
+}
+
+footer p, #footerLinks li {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 600;
+    font-style: normal;
+	font-size: 13px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: none;
+	text-rendering: auto;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+blockquote, blockquote p {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 400;
+    font-style: italic;
+	font-size: 14px;
+	line-height: 1.4;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: none;
+	text-rendering: auto;
+}
+
+blockquote cite {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 700;
+    font-style: normal;
+	font-size: 14px;
+	line-height: 1.3;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: none;
+	text-rendering: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	text-transform: none;
+}
+
+#heroNav a {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 700;
+    font-style: normal;
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-decoration: underline;
+	text-transform: none;
+	text-rendering: auto;
+}
+
+#formField {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 400;
+    font-style: normal;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: none;
+	text-rendering: auto;
+}
+
+#formSubmit {
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 700;
+    font-style: normal;
+	font-size: 12px;
+	line-height: 1.2;
+	letter-spacing: 0.09em;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-rendering: auto;
+}
+
+/*===================================================================================================
+3) Positioning adjustments
+===================================================================================================*/
+
+#logo h2, #logoDetailView h2 {
+	margin-top: -22px;
+	padding-left: 2px;
+}
+
+nav {
+	padding-top: 41px;
+	margin-bottom: -30px;
+}
+
+nav ul li {
+	padding-left: 26px;
+}
+
+#overview {
+	padding-bottom: 10px;	
+}
+
+#overview h3 {
+	margin-top: -8px;
+	margin-bottom: 23px;
+}
+
+.projectThumbnailHover h4 {
+	margin-top: 40px;
+}
+
+.projectThumbnailHover h5 {
+	padding-top: 68px;
+}
+
+.projectInfo h4 {
+	padding-top: 10px;
+	padding-bottom: 8px;
+}
+
+.projectNavCounter {
+	padding-top: 13px;
+}
+
+.projectNavClose, .projectNavEnlarge {
+	padding-top: 3px;
+	padding-top: 5px\9; /* IE adjustment */
+}
+
+.projectNavButtons {
+	padding-top: 3px;
+	padding-top: 5px\9; /* IE adjustment */
+}
+
+/* Tweak positioning slightly in Firefox */
+@-moz-document url-prefix() {
+  .projectNavEnlarge, .projectNavClose, .projectNavButtons {
+		padding-top: 6px;
+	}
+}
+
+.projectInfo ul {
+	margin-top: -8px;
+	margin-bottom: 7px;
+}
+
+.projectInfo p + ul {
+	margin-top: -20px;
+}
+
+.projectInfo li, .linedList li {
+	border-top: 1px solid #ddd;
+	margin-top: 6px;
+	margin-bottom: -1px;
+	padding-top: 6px;
+	padding-bottom: 0px;
+}
+
+@-moz-document url-prefix() {
+	.projectInfo li, .linedList li {
+		margin-bottom: -1px;
+	}
+}
+
+.projectInfo li:last-child {
+	margin-bottom: -2px;
+}
+
+.linedList {
+	padding-bottom: 7px;
+}
+
+
+/*===================================================================================================
+4) Media query adjustments
+===================================================================================================*/
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		
+		nav ul li a, nav ul li button, nav ul li span, #detailViewBack {
+			font-size: 12px;
+		}
+		
+		nav {
+			padding-top: 39px;
+		}
+		
+	}
+
+	/* Tablet portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		.projectThumbnailHover h4 {
+			font-size: 18px;
+		}
+		
+		.projectThumbnailHover h5 {
+			font-size: 12px;
+			padding-top: 59px;
+		}
+		
+	}
+
+	/* All mobile sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+		#logo h1, #logoDetailView h1 {
+			font-size: 30px;
+			line-height: 1;
+		}
+		
+		#logo h2, #logoDetailView h2 {
+			margin-top: -12px;
+		}
+		
+		header {
+			padding-top: 40px;
+		}
+		
+		nav {
+			padding-top: 9px;
+			margin-bottom: -11px;
+		}
+		
+		#overview {
+			padding-bottom: 0px;
+		}
+		
+		#overview h3 {
+			font-size: 24px;
+		}
+		
+		footer p {
+			font-size: 14px;
+		}
+		
+	}
+
+	/* Mobile landscape size to tablet portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		
+		
+	}
+
+	/* Mobile portrait size to mobile landscape size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		#logo h1, #logoDetailView h1 {
+			font-size: 26px;
+		}
+		
+		#logo h2, #logoDetailView h2 {
+			font-size: 14px;
+			margin-top: -12px;
+		}
+		
+		#overview h3 {
+			font-size: 24px;	
+		}
+		
+		.projectThumbnailHover h4 {
+			font-size: 16px;
+		}
+		
+		.projectThumbnailHover h5 {
+			font-size: 14px;
+			padding-top: 60px;
+		}
+		
+	}
