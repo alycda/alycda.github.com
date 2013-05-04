@@ -175,7 +175,7 @@ Contents
 }
 
 #logo h1, #logoDetailView h1 {
-	font-family: "Adelle Italic", Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; /*Source Sans Pro*/
+	font-family: "Adelle Italic", Rockwell, "Source Sans Pro", Arial, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 68px; /*34px*/
@@ -210,7 +210,7 @@ nav ul li a, nav ul li button, nav ul li span, #detailViewBack a {
 }
 
 #overview h3 {
-	font-family: "Adelle Light", Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-family: "Adelle Light", Rockwell, "Source Sans Pro", Arial, sans-serif;
 	font-weight: 300;
     font-style: normal;
 	font-size: 36px; /*40*/
