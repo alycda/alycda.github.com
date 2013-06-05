@@ -12,6 +12,9 @@ jQuery.easing.def = "easeOutQuad";
 $(document).ready(function()
 {
 	
+	//Tooltips
+	$('.tip').tooltip();
+	
 	// Make enlarge buttons inactive if no onClick event
 	$(".enlargeButton").each(function() {
         if ( $(this).attr("onClick") == undefined )  {

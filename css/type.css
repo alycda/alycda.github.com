@@ -180,7 +180,6 @@ Contents
 	font-style: normal;
 	font-size: 68px; /*34px*/
 	line-height: 1.2; /*1.5*/
-	letter-spacing: 0.02em;
 	text-decoration: none;
 	text-rendering: optimizeLegibility;
 }
