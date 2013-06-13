@@ -68,7 +68,7 @@ $(document).ready(function()
 	
 	$("#logoDetailView").click(function()
 	{
-		window.location = "../../index.html";
+		window.location = "../../";
 	});
 	
 	$("#workPage, #logo").click(function()
