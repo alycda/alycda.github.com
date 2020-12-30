@@ -25,21 +25,21 @@ Contents
 
 @font-face {
     font-family: 'Sovba Bold Oblique';
-    src: url('fonts/Sovba/sovba_bold_oblique-webfont.eot');
-    src: url('fonts/Sovba/sovba_bold_oblique-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Sovba/sovba_bold_oblique-webfont.woff') format('woff'),
-         url('fonts/Sovba/sovba_bold_oblique-webfont.ttf') format('truetype'),
-         url('fonts/Sovba/sovba_bold_oblique-webfont.svg#sovba_bold_obliqueBdOb') format('svg');
+    src: url('./fonts/Sovba/sovba_bold_oblique-webfont.eot');
+    src: url('./fonts/Sovba/sovba_bold_oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Sovba/sovba_bold_oblique-webfont.woff') format('woff'),
+         url('./fonts/Sovba/sovba_bold_oblique-webfont.ttf') format('truetype'),
+         url('./fonts/Sovba/sovba_bold_oblique-webfont.svg#sovba_bold_obliqueBdOb') format('svg');
     font-weight: normal;
     font-style: normal;
 
 } @font-face {
     font-family: 'Sovba';
-    src: url('fonts/Sovba/sovba_regular-webfont.eot');
-    src: url('fonts/Sovba/sovba_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Sovba/sovba_regular-webfont.woff') format('woff'),
-         url('fonts/Sovba/sovba_regular-webfont.ttf') format('truetype'),
-         url('fonts/Sovba/sovba_regular-webfont.svg#sovba_regularregular') format('svg');
+    src: url('./fonts/Sovba/sovba_regular-webfont.eot');
+    src: url('./fonts/Sovba/sovba_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Sovba/sovba_regular-webfont.woff') format('woff'),
+         url('./fonts/Sovba/sovba_regular-webfont.ttf') format('truetype'),
+         url('./fonts/Sovba/sovba_regular-webfont.svg#sovba_regularregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -47,121 +47,121 @@ Contents
 
 @font-face {
     font-family: 'Adelle Bold';
-    src: url('fonts/Adelle/adelle-bold-webfont.eot');
-    src: url('fonts/Adelle/adelle-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Adelle/adelle-bold-webfont.woff') format('woff'),
-         url('fonts/Adelle/adelle-bold-webfont.ttf') format('truetype'),
-         url('fonts/Adelle/adelle-bold-webfont.svg#adelle_rgbold') format('svg');
+    src: url('./fonts/Adelle/adelle-bold-webfont.eot');
+    src: url('./fonts/Adelle/adelle-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Adelle/adelle-bold-webfont.woff') format('woff'),
+         url('./fonts/Adelle/adelle-bold-webfont.ttf') format('truetype'),
+         url('./fonts/Adelle/adelle-bold-webfont.svg#adelle_rgbold') format('svg');
     font-weight: normal;
     font-style: normal;
 
 } @font-face {
     font-family: 'Adelle Bold Italic';
-    src: url('fonts/Adelle/adelle-bolditalic-webfont.eot');
-    src: url('fonts/Adelle/adelle-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Adelle/adelle-bolditalic-webfont.woff') format('woff'),
-         url('fonts/Adelle/adelle-bolditalic-webfont.ttf') format('truetype'),
-         url('fonts/Adelle/adelle-bolditalic-webfont.svg#adelle_rgbold_italic') format('svg');
+    src: url('./fonts/Adelle/adelle-bolditalic-webfont.eot');
+    src: url('./fonts/Adelle/adelle-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Adelle/adelle-bolditalic-webfont.woff') format('woff'),
+         url('./fonts/Adelle/adelle-bolditalic-webfont.ttf') format('truetype'),
+         url('./fonts/Adelle/adelle-bolditalic-webfont.svg#adelle_rgbold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
 } @font-face {
     font-family: 'Adelle ExtraBold';
-    src: url('fonts/Adelle/adelle-extrabold-webfont.eot');
-    src: url('fonts/Adelle/adelle-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Adelle/adelle-extrabold-webfont.woff') format('woff'),
-         url('fonts/Adelle/adelle-extrabold-webfont.ttf') format('truetype'),
-         url('fonts/Adelle/adelle-extrabold-webfont.svg#adelle_ebextrabold') format('svg');
+    src: url('./fonts/Adelle/adelle-extrabold-webfont.eot');
+    src: url('./fonts/Adelle/adelle-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Adelle/adelle-extrabold-webfont.woff') format('woff'),
+         url('./fonts/Adelle/adelle-extrabold-webfont.ttf') format('truetype'),
+         url('./fonts/Adelle/adelle-extrabold-webfont.svg#adelle_ebextrabold') format('svg');
     font-weight: normal;
     font-style: normal;
 
 } @font-face {
     font-family: 'Adelle ExtraBold Italic';
-    src: url('fonts/Adelle/adelle-extrabolditalic-webfont.eot');
-    src: url('fonts/Adelle/adelle-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Adelle/adelle-extrabolditalic-webfont.woff') format('woff'),
-         url('fonts/Adelle/adelle-extrabolditalic-webfont.ttf') format('truetype'),
-         url('fonts/Adelle/adelle-extrabolditalic-webfont.svg#adelle_ebextrabold_italic') format('svg');
+    src: url('./fonts/Adelle/adelle-extrabolditalic-webfont.eot');
+    src: url('./fonts/Adelle/adelle-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Adelle/adelle-extrabolditalic-webfont.woff') format('woff'),
+         url('./fonts/Adelle/adelle-extrabolditalic-webfont.ttf') format('truetype'),
+         url('./fonts/Adelle/adelle-extrabolditalic-webfont.svg#adelle_ebextrabold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
 } @font-face {
     font-family: 'Adelle Heavy';
-    src: url('fonts/Adelle/adelle-heavy-webfont.eot');
-    src: url('fonts/Adelle/adelle-heavy-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Adelle/adelle-heavy-webfont.woff') format('woff'),
-         url('fonts/Adelle/adelle-heavy-webfont.ttf') format('truetype'),
-         url('fonts/Adelle/adelle-heavy-webfont.svg#adelle_hvheavy') format('svg');
+    src: url('./fonts/Adelle/adelle-heavy-webfont.eot');
+    src: url('./fonts/Adelle/adelle-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Adelle/adelle-heavy-webfont.woff') format('woff'),
+         url('./fonts/Adelle/adelle-heavy-webfont.ttf') format('truetype'),
+         url('./fonts/Adelle/adelle-heavy-webfont.svg#adelle_hvheavy') format('svg');
     font-weight: normal;
     font-style: normal;
 
 } @font-face {
     font-family: 'Adelle Heavy Italic';
-    src: url('fonts/Adelle/adelle-heavyitalic-webfont.eot');
-    src: url('fonts/Adelle/adelle-heavyitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Adelle/adelle-heavyitalic-webfont.woff') format('woff'),
-         url('fonts/Adelle/adelle-heavyitalic-webfont.ttf') format('truetype'),
-         url('fonts/Adelle/adelle-heavyitalic-webfont.svg#adelle_hvheavy_italic') format('svg');
+    src: url('./fonts/Adelle/adelle-heavyitalic-webfont.eot');
+    src: url('./fonts/Adelle/adelle-heavyitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Adelle/adelle-heavyitalic-webfont.woff') format('woff'),
+         url('./fonts/Adelle/adelle-heavyitalic-webfont.ttf') format('truetype'),
+         url('./fonts/Adelle/adelle-heavyitalic-webfont.svg#adelle_hvheavy_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
 } @font-face {
     font-family: 'Adelle Italic';
-    src: url('fonts/Adelle/adelle-italic-webfont.eot');
-    src: url('fonts/Adelle/adelle-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Adelle/adelle-italic-webfont.woff') format('woff'),
-         url('fonts/Adelle/adelle-italic-webfont.ttf') format('truetype'),
-         url('fonts/Adelle/adelle-italic-webfont.svg#adelle_rgitalic') format('svg');
+    src: url('./fonts/Adelle/adelle-italic-webfont.eot');
+    src: url('./fonts/Adelle/adelle-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Adelle/adelle-italic-webfont.woff') format('woff'),
+         url('./fonts/Adelle/adelle-italic-webfont.ttf') format('truetype'),
+         url('./fonts/Adelle/adelle-italic-webfont.svg#adelle_rgitalic') format('svg');
     font-weight: normal;
     font-style: normal;
 
 } @font-face {
     font-family: 'Adelle Light';
-    src: url('fonts/Adelle/adelle-light-webfont.eot');
-    src: url('fonts/Adelle/adelle-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Adelle/adelle-light-webfont.woff') format('woff'),
-         url('fonts/Adelle/adelle-light-webfont.ttf') format('truetype'),
-         url('fonts/Adelle/adelle-light-webfont.svg#adelle_ltlight') format('svg');
+    src: url('./fonts/Adelle/adelle-light-webfont.eot');
+    src: url('./fonts/Adelle/adelle-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Adelle/adelle-light-webfont.woff') format('woff'),
+         url('./fonts/Adelle/adelle-light-webfont.ttf') format('truetype'),
+         url('./fonts/Adelle/adelle-light-webfont.svg#adelle_ltlight') format('svg');
     font-weight: normal;
     font-style: normal;
 
 } @font-face {
     font-family: 'Adelle Light Italic';
-    src: url('fonts/Adelle/adelle-lightitalic-webfont.eot');
-    src: url('fonts/Adelle/adelle-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Adelle/adelle-lightitalic-webfont.woff') format('woff'),
-         url('fonts/Adelle/adelle-lightitalic-webfont.ttf') format('truetype'),
-         url('fonts/Adelle/adelle-lightitalic-webfont.svg#adelle_ltlight_italic') format('svg');
+    src: url('./fonts/Adelle/adelle-lightitalic-webfont.eot');
+    src: url('./fonts/Adelle/adelle-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Adelle/adelle-lightitalic-webfont.woff') format('woff'),
+         url('./fonts/Adelle/adelle-lightitalic-webfont.ttf') format('truetype'),
+         url('./fonts/Adelle/adelle-lightitalic-webfont.svg#adelle_ltlight_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
 } @font-face {
     font-family: 'Adelle';
-    src: url('fonts/Adelle/adelle-regular-webfont.eot');
-    src: url('fonts/Adelle/adelle-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Adelle/adelle-regular-webfont.woff') format('woff'),
-         url('fonts/Adelle/adelle-regular-webfont.ttf') format('truetype'),
-         url('fonts/Adelle/adelle-regular-webfont.svg#adelle_rgregular') format('svg');
+    src: url('./fonts/Adelle/adelle-regular-webfont.eot');
+    src: url('./fonts/Adelle/adelle-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Adelle/adelle-regular-webfont.woff') format('woff'),
+         url('./fonts/Adelle/adelle-regular-webfont.ttf') format('truetype'),
+         url('./fonts/Adelle/adelle-regular-webfont.svg#adelle_rgregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 } @font-face {
     font-family: 'Adelle SemiBold';
-    src: url('fonts/Adelle/adelle-semibold-webfont.eot');
-    src: url('fonts/Adelle/adelle-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Adelle/adelle-semibold-webfont.woff') format('woff'),
-         url('fonts/Adelle/adelle-semibold-webfont.ttf') format('truetype'),
-         url('fonts/Adelle/adelle-semibold-webfont.svg#adelle_sbsemibold') format('svg');
+    src: url('./fonts/Adelle/adelle-semibold-webfont.eot');
+    src: url('./fonts/Adelle/adelle-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Adelle/adelle-semibold-webfont.woff') format('woff'),
+         url('./fonts/Adelle/adelle-semibold-webfont.ttf') format('truetype'),
+         url('./fonts/Adelle/adelle-semibold-webfont.svg#adelle_sbsemibold') format('svg');
     font-weight: normal;
     font-style: normal;
 
 } @font-face {
     font-family: 'Adelle Semibold Italic';
-    src: url('fonts/Adelle/adelle-semibolditalic-webfont.eot');
-    src: url('fonts/Adelle/adelle-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Adelle/adelle-semibolditalic-webfont.woff') format('woff'),
-         url('fonts/Adelle/adelle-semibolditalic-webfont.ttf') format('truetype'),
-         url('fonts/Adelle/adelle-semibolditalic-webfont.svg#adelle_sbsemibold_italic') format('svg');
+    src: url('./fonts/Adelle/adelle-semibolditalic-webfont.eot');
+    src: url('./fonts/Adelle/adelle-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Adelle/adelle-semibolditalic-webfont.woff') format('woff'),
+         url('./fonts/Adelle/adelle-semibolditalic-webfont.ttf') format('truetype'),
+         url('./fonts/Adelle/adelle-semibolditalic-webfont.svg#adelle_sbsemibold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 

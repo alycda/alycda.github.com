@@ -1,0 +1,7 @@
+ports:
+  - port: 1234
+    onOpen: open-preview 
+
+tasks:
+  - init: yarn global add parcel-bundler
+    command: yarn start

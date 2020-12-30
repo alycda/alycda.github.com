@@ -13,10 +13,10 @@
 
 <!-- CSS
 ================================================================================================= -->
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/type.css">
-<link rel="stylesheet" href="css/color.css">
-<link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="./css/base.css">
+<link rel="stylesheet" href="./css/type.css">
+<link rel="stylesheet" href="./css/color.css">
+<link rel="stylesheet" href="./css/custom.css">
 
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,11 +25,11 @@
 <!-- Favicons
 ================================================================================================= -->
 <link rel="shortcut icon" href="favicon.ico">
-<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" href="./images/favicons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./images/favicons/apple-touch-icon-114x114.png">
 
-<link rel="shortlink" href="alyda.me">
+<!-- <link rel="shortlink" href="alyda.me"> -->
 
 <!-- JS
 ================================================================================================= -->
@@ -45,7 +45,7 @@
 
 <!-- Write preloader to page - this allows the site to load for users with JS disabled -->
 <script type="text/javascript">
-	document.write("<div id='sitePreloader'><div id='preloaderImage'><img src='images/site_preloader.gif' width='30' height='30' alt='Preloader' /></div></div>");
+	document.write("<div id='sitePreloader'><div id='preloaderImage'><img src='./images/site_preloader.gif' width='30' height='30' alt='Preloader' /></div></div>");
 </script>
 
 <div class="container">
@@ -91,7 +91,7 @@
 						<h5>HTML eCard</h5>
 					</div>
 					
-					<img src="images/projects/rolling_stones.gif" alt="Rolling Stones eCard" class="thumbnailImage" />
+					<img src="./images/projects/rolling_stones.gif" alt="Rolling Stones eCard" class="thumbnailImage" />
 				</div>
 				
 				<div class="projectInfo">
@@ -122,7 +122,7 @@
 						<h5>After Effects, iMovie</h5>
 					</div>
 					
-					<img src="images/projects/mud_run_2012.jpg" alt="Mammoth Mud Run 2012" class="thumbnailImage" />
+					<img src="./images/projects/mud_run_2012.jpg" alt="Mammoth Mud Run 2012" class="thumbnailImage" />
 				</div>
 				
 				<div class="projectInfo">
@@ -153,7 +153,7 @@
 							<h5>Flash / PHP mini-site</h5>
 						</div>
 						
-						<img src="images/projects/bob.jpg" alt="B.o.B. Flash mini-site" class="thumbnailImage" />
+						<img src="./images/projects/bob.jpg" alt="B.o.B. Flash mini-site" class="thumbnailImage" />
 					</div>
 					
 					<div class="projectInfo">
@@ -184,7 +184,7 @@
 							<h5>AS2 Flipping-book website</h5>
 						</div>
 						
-						<img src="images/projects/wjk.jpg" alt="WJK Ltd." class="thumbnailImage" />
+						<img src="./images/projects/wjk.jpg" alt="WJK Ltd." class="thumbnailImage" />
 					</div>
 					
 					<div class="projectInfo">
@@ -262,7 +262,7 @@
 		<!-- Column 2 begins ==================================================================== -->
 		<div class="eight columns">
 			<svg class="thumbnailMask"></svg>
-			<img src="images/about.jpg" alt="Alyssa Davis" />
+			<img src="./images/about.jpg" alt="Alyssa Davis" />
 			
 			<ul class="linedList">
 				<li><strong>Location:</strong> Los Angeles, California</li>
@@ -294,7 +294,7 @@
 	// Set pixelRatio to 1 if the browser doesn't offer it up.
 	var pixelRatio = !!window.devicePixelRatio ? window.devicePixelRatio : 1;
 	 
-	// Rather than waiting for document ready, where the images
+	// Rather than waiting for document ready, where the ./images
 	// have already loaded, we'll jump in as soon as possible.
 	$(window).on("load", function() {
 	    if (pixelRatio > 1) {
